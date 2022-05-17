@@ -1,0 +1,28 @@
+{
+    "name": "a",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.1.7",
+        "cBit": "github:zhuning239/cBit#a1612bc5be7fc2be0e27c01efbbe281965605d71"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "a.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
